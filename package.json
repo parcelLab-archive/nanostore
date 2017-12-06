@@ -1,0 +1,26 @@
+{
+  "name": "nanostore",
+  "version": "1.0.0",
+  "description": "A tiny state manager for reactive apps.",
+  "main": "nanostore.js",
+  "scripts": {
+    "babel": "babel main.js > nanostore.js"
+  },
+  "keywords": [
+    "state",
+    "management",
+    "reactive",
+    "bus",
+    "emit"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nanobus": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
