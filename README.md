@@ -24,6 +24,9 @@ myStore.subscribe(newState => {
 // modify the state (works like Reacts setState() ...)
 myStore.set({ foo: 'bar' })
 
+// get state
+myStore.get()
+
 // create custom events
 myStore.on('fetchSomeApi', (endpoint) => {
   fetch('https://some-cool.api/v2/' + endpoint)
