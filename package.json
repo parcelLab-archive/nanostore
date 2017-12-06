@@ -15,6 +15,10 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parcelLab/nanostore.git"
+  },
   "dependencies": {
     "nanobus": "^4.3.1"
   },
