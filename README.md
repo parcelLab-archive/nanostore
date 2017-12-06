@@ -2,6 +2,11 @@
 A tiny state manager for reactive apps.  
 E.g. use with react, preact, yo-yo ...
 
+## Install
+```
+npm i nanostore
+```
+
 ## Usage
 ```javascript
 
