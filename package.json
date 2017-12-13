@@ -20,9 +20,10 @@
     "url": "https://github.com/parcelLab/nanostore.git"
   },
   "dependencies": {
-    "nanobus": "^4.3.1"
+    "tiny-emitter": "^2.0.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1"

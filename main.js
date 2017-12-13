@@ -1,7 +1,7 @@
-const nanobus = require('nanobus')
+const Emitter = require('tiny-emitter')
 
 function Store(initial={}) {
-  const bus = nanobus()
+  const bus = new Emitter()
   let state = { ...initial }
 
   this.on = bus.on.bind(bus)
