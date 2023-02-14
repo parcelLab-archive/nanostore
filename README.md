@@ -1,4 +1,6 @@
 # nanostore 👛
+> ⚠️ Deprecated: this module is no longer beeing maintained. There are a few better options on the market as: MobX, Zustand...
+
 A tiny state manager for reactive apps.  
 E.g. use with react, preact, yo-yo ...  
 - Small in size
